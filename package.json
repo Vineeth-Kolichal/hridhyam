@@ -1,0 +1,6 @@
+{
+  "name": "hridhyam-build",
+  "dependencies": {
+    "firebase": "^11.4.0"
+  }
+}
