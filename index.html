@@ -34,7 +34,22 @@
   <!-- <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js"></script> -->
   <!-- <script src="./flutter.js" defer></script> -->
-  <script src="config.js" defer></script>
+  <script>
+    // Your Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyBAMy-ri8ydWe38GCHbipn-vyxUd7t4YI8",
+        authDomain: "hridhyam-fb3ef.firebaseapp.com",
+        projectId: "hridhyam-fb3ef",
+        storageBucket: "hridhyam-fb3ef.firebasestorage.app",
+        messagingSenderId: "356194571074",
+        appId: "1:356194571074:web:cb89d100ab58011ba4aedb",
+        measurementId: "G-LGQTL4GJQW"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
   
 </head>
 <body>
